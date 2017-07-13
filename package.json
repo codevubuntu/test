@@ -5,19 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.4",
-    
-  },
-  "engine": {
-    "node": "*",
-    "npm": "*"
-  },
+ },
   "scripts": {
     "start": "node server.js",
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/codevubuntu/test.git"
-  },
-  
-  "homepage": "http://github.com/codevubuntu/test"
+  }
 }
