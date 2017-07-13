@@ -1,12 +1,11 @@
 {
-  "name": "codevtest",
-  "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.13.4",
- },
-  "scripts": {
-    "start": "node server.js",
-  }
+	"name": "test",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "~4.10.6"
+	}
 }
