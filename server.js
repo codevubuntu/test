@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
-var server_port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT;
-var server_ip_address = process.env.IP || process.env.OPENSHIFT_NODEJS_IP;
+var server_port = process.env.OPENSHIFT_NODEJS_PORT;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP;
 app.get('/', function (req, res){
  res.send('Hello World!');
 } );
