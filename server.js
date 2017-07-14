@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname+"/view/index.html");
 })
 .get('/services', function(req, res){
-  res.senFile(__dirname+"/view/services.html")
+  res.sendFile(__dirname+"/view/services.html")
 })
 .get('/contact', function(req, res){
   res.sendFile(__dirname+"/view/contact.html");
