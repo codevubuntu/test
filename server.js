@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.senFile(__dirname+"/view/services.html")
 })
 .get('/contact', function(req, res){
-  res.send(__dirname+"/view/contact.html");
+  res.sendFile(__dirname+"/view/contact.html");
 });
 
 var server = app.listen(8080, function () {
